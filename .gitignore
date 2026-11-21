@@ -1,0 +1,31 @@
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+*.sqlite3
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build artifacts
+build/
+Dist/
+*.egg-info/
+
+# Data
+data/external/ai4i/*.zip
+
+# System generated files (Antigravity)
+.system_generated/
+
+# Pytest cache
+.pytest_cache/
+
+# Scratch files
+scratch/
