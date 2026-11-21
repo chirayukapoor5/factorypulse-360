@@ -1,0 +1,12 @@
+Created At: 2026-11-20T21:40:14+02:00
+Completed At: 2026-11-20T21:40:15+02:00
+Command exited with code 0.
+
+Command output:
+
+Name          FullName                                                         
+----          --------                                                         
+python3.dll   C:\Users\Hp\AppData\Local\Programs\Python\Python312\python3.dll  
+python312.dll C:\Users\Hp\AppData\Local\Programs\Python\Python312\python312.dll
+
+

@@ -1,0 +1,25 @@
+MachineKey,MachineId,LineKey,CellId,MachineName
+1,M111,1,1,Machine 111
+2,M112,1,1,Machine 112
+3,M113,1,1,Machine 113
+4,M114,1,1,Machine 114
+5,M121,1,2,Machine 121
+6,M122,1,2,Machine 122
+7,M123,1,2,Machine 123
+8,M124,1,2,Machine 124
+9,M211,2,1,Machine 211
+10,M212,2,1,Machine 212
+11,M213,2,1,Machine 213
+12,M214,2,1,Machine 214
+13,M221,2,2,Machine 221
+14,M222,2,2,Machine 222
+15,M223,2,2,Machine 223
+16,M224,2,2,Machine 224
+17,M311,3,1,Machine 311
+18,M312,3,1,Machine 312
+19,M313,3,1,Machine 313
+20,M314,3,1,Machine 314
+21,M321,3,2,Machine 321
+22,M322,3,2,Machine 322
+23,M323,3,2,Machine 323
+24,M324,3,2,Machine 324

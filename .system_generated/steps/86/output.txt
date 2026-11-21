@@ -1,0 +1,16 @@
+Created At: 2026-11-20T21:32:47+02:00
+Completed At: 2026-11-20T21:32:48+02:00
+Command exited with code 1.
+
+Command output:
+At line:1 char:184
++ ... \Users\Hp\AppData\Local\Microsoft\WindowsApps\python3.exe" -m src.run ...
++                                                                ~~
+Unexpected token '-m' in expression or statement.
+At line:1 char:187
++ ... \Local\Microsoft\WindowsApps\python3.exe" -m src.run_pipeline --seed  ...
++                                                  ~~~~~~~~~~~~~~~~
+Unexpected token 'src.run_pipeline' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

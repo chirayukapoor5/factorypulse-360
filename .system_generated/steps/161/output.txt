@@ -1,0 +1,22 @@
+Created At: 2026-11-20T22:42:49+02:00
+Completed At: 2026-11-20T22:42:53+02:00
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Hp\.gemini\antigravity\brain\00691f59-1a7d-42ed-8916-27f2977073aa\src\run_pipeline.py", line 44, in <module>
+    main()
+  File "C:\Users\Hp\.gemini\antigravity\brain\00691f59-1a7d-42ed-8916-27f2977073aa\src\run_pipeline.py", line 30, in main
+    validate.run_validation()
+  File "C:\Users\Hp\.gemini\antigravity\brain\00691f59-1a7d-42ed-8916-27f2977073aa\src\validate.py", line 168, in run_validation
+    exc_df.insert(0, "ExceptionKey", range(1, len(exc_df) + 1))
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 6247, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert ExceptionKey, already exists
+[pipeline] Running factory simulation...
+Generated raw data for 90 days into C:\Users\Hp\.gemini\antigravity\brain\00691f59-1a7d-42ed-8916-27f2977073aa\data\raw
+[pipeline] Injecting data‑quality faults...
+Fault injection completed. Faulty CSVs written to C:\Users\Hp\.gemini\antigravity\brain\00691f59-1a7d-42ed-8916-27f2977073aa\data\raw\faulty
+[pipeline] Validating data...

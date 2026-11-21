@@ -1,0 +1,6 @@
+Created At: 2026-11-20T21:32:26+02:00
+Completed At: 2026-11-20T21:32:27+02:00
+Command exited with code 1.
+
+Command output:
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
