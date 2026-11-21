@@ -31,5 +31,6 @@ htmlcov/
 # Generated Pipeline Data (preserve original external datasets)
 data/raw/
 data/curated/
+data/generated/
 !data/external/
 data/external/ai4i/*.zip

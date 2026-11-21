@@ -1,6 +1,6 @@
-ProductKey,ProductId,ProductFamily,ProductName
-1,P1,Family_A,Family_A Switch
-2,P2,Family_B,Family_B Switch
-3,P3,Family_C,Family_C Switch
-4,P4,Family_D,Family_D Switch
-5,P5,Family_E,Family_E Switch
+ProductKey,ProductId,ProductFamily,ProductName,IdealCycleTimeSeconds,IdealCycleTimeMinutes
+1,P1,Family_A,Family_A Switch,60.0,1.0
+2,P2,Family_B,Family_B Switch,60.0,1.0
+3,P3,Family_C,Family_C Switch,60.0,1.0
+4,P4,Family_D,Family_D Switch,60.0,1.0
+5,P5,Family_E,Family_E Switch,60.0,1.0

@@ -1,0 +1,6 @@
+ReasonCode,TotalMinutes,PctOfTotal,CumulativeMinutes,CumPct
+Planned_Maintenance,3079.0241,43.6318,3079.0241,43.6318
+Mechanical_Failure,1830.3392,25.9371,4909.3633,69.5689
+Changeover,782.4022,11.0872,5691.7655,80.6561
+Electrical_Failure,767.4073,10.8747,6459.1728,91.5308
+Setup,597.6602,8.4692,7056.833,100.0

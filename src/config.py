@@ -9,8 +9,9 @@ SQL_DIR = BASE_DIR / "sql"
 DOCS_DIR = BASE_DIR / "docs"
 
 # Simulation parameters (can be overridden via CLI arguments)
-DEFAULT_SEED = 20261120
-DEFAULT_DAYS = 90
+DEFAULT_SEED = 42
+DEFAULT_DAYS = 30
+DEFAULT_START_DATE = "2024-01-01"
 NUM_LINES = 3
 CELLS_PER_LINE = 2  # total cells = NUM_LINES * CELLS_PER_LINE = 6
 SHIFTS_PER_DAY = 2

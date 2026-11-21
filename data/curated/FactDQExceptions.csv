@@ -1,249 +1,154 @@
-ExceptionKey,SourceTable,RecordIdentifier,RuleViolated,Severity,Disposition,Description
-1,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-2,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-3,FactProduction,1097.0,DuplicatePrimaryKey,High,Quarantine,Primary key 1097.0 appears multiple times.
-4,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-5,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-6,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-7,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-8,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-9,FactProduction,3583.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3583.0 appears multiple times.
-10,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-11,FactProduction,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-12,FactProduction,4297.0,DuplicatePrimaryKey,High,Quarantine,Primary key 4297.0 appears multiple times.
-13,FactProduction,1097.0,DuplicatePrimaryKey,High,Quarantine,Primary key 1097.0 appears multiple times.
-14,FactProduction,3583.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3583.0 appears multiple times.
-15,FactProduction,4297.0,DuplicatePrimaryKey,High,Quarantine,Primary key 4297.0 appears multiple times.
-16,FactProduction,237.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-17,FactProduction,1238.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-18,FactProduction,1495.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-19,FactProduction,1758.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-20,FactProduction,1797.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-21,FactProduction,2508.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-22,FactProduction,3063.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-23,FactProduction,nan,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-24,FactProduction,698.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-25,FactProduction,1856.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-26,FactProduction,2374.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-27,FactProduction,2382.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-28,FactProduction,2850.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-29,FactProduction,4061.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-30,FactProduction,4189.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-31,FactProduction,648.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-32,FactProduction,915.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-33,FactProduction,1785.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-34,FactProduction,1825.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-35,FactProduction,2828.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-36,FactProduction,3747.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-37,FactProduction,687.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-38,FactProduction,1641.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-39,FactProduction,2674.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-40,FactProduction,3741.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-41,FactProduction,3759.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-42,FactProduction,3909.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-43,FactProduction,4208.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-44,FactProduction,136.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -80.
-45,FactProduction,1759.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -90.
-46,FactProduction,2076.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -84.
-47,FactProduction,2139.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -95.
-48,FactProduction,2493.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -117.
-49,FactProduction,2539.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -92.
-50,FactProduction,2887.0,NegativeValue,Medium,Quarantine,Column TargetUnits has negative value -85.
-51,FactProduction,789.0,NegativeValue,Medium,Quarantine,Column ProducedUnits has negative value -89.
-52,FactProduction,934.0,NegativeValue,Medium,Quarantine,Column ProducedUnits has negative value -116.
-53,FactProduction,1279.0,NegativeValue,Medium,Quarantine,Column ProducedUnits has negative value -85.
-54,FactProduction,726.0,NegativeValue,Medium,Quarantine,Column GoodUnits has negative value -96.
-55,FactProduction,1290.0,NegativeValue,Medium,Quarantine,Column GoodUnits has negative value -102.
-56,FactProduction,1830.0,NegativeValue,Medium,Quarantine,Column GoodUnits has negative value -81.
-57,FactProduction,83.0,NegativeValue,Medium,Quarantine,Column RejectedUnits has negative value -3.
-58,FactProduction,596.0,NegativeValue,Medium,Quarantine,Column RejectedUnits has negative value -4.
-59,FactProduction,615.0,NegativeValue,Medium,Quarantine,Column RejectedUnits has negative value -6.
-60,FactProduction,1382.0,NegativeValue,Medium,Quarantine,Column RejectedUnits has negative value -4.
-61,FactProduction,2160.0,NegativeValue,Medium,Quarantine,Column RejectedUnits has negative value -3.
-62,FactProduction,83.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-63,FactProduction,596.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-64,FactProduction,615.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-65,FactProduction,726.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-66,FactProduction,789.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-67,FactProduction,934.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-68,FactProduction,1279.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-69,FactProduction,1290.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-70,FactProduction,1366.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-71,FactProduction,1382.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-72,FactProduction,1712.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-73,FactProduction,1830.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-74,FactProduction,2081.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-75,FactProduction,2146.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-76,FactProduction,2160.0,UnitSumMismatch,Medium,Quarantine,GoodUnits + RejectedUnits does not equal ProducedUnits.
-77,FactDowntime,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-78,FactDowntime,2008.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2008.0 appears multiple times.
-79,FactDowntime,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-80,FactDowntime,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-81,FactDowntime,2627.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2627.0 appears multiple times.
-82,FactDowntime,2784.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2784.0 appears multiple times.
-83,FactDowntime,2838.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2838.0 appears multiple times.
-84,FactDowntime,3720.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3720.0 appears multiple times.
-85,FactDowntime,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-86,FactDowntime,3837.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3837.0 appears multiple times.
-87,FactDowntime,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-88,FactDowntime,2008.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2008.0 appears multiple times.
-89,FactDowntime,2627.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2627.0 appears multiple times.
-90,FactDowntime,2784.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2784.0 appears multiple times.
-91,FactDowntime,2838.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2838.0 appears multiple times.
-92,FactDowntime,3720.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3720.0 appears multiple times.
-93,FactDowntime,3837.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3837.0 appears multiple times.
-94,FactDowntime,396.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-95,FactDowntime,1824.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-96,FactDowntime,2930.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-97,FactDowntime,50.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-98,FactDowntime,1175.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-99,FactDowntime,1741.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-100,FactDowntime,2082.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-101,FactDowntime,3154.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-102,FactDowntime,3231.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-103,FactDowntime,3285.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-104,FactDowntime,4250.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-105,FactDowntime,188.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-106,FactDowntime,3047.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-107,FactDowntime,3312.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-108,FactDowntime,3651.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-109,FactDowntime,492.0,OrphanForeignKey,High,Quarantine,ReasonKey value -999 not found in DimReason.
-110,FactDowntime,3261.0,OrphanForeignKey,High,Quarantine,ReasonKey value -999 not found in DimReason.
-111,FactDowntime,3452.0,OrphanForeignKey,High,Quarantine,ReasonKey value -999 not found in DimReason.
-112,FactDowntime,134.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -0.14044621250346018.
-113,FactDowntime,720.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -5.216792299968641.
-114,FactDowntime,976.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -12.357745226625978.
-115,FactDowntime,1538.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -5.439014329288137.
-116,FactDowntime,1913.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -1.2016076055676153.
-117,FactDowntime,3380.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -2.245116894315753.
-118,FactDowntime,4026.0,NegativeValue,Medium,Quarantine,Column DowntimeMinutes has negative value -1.8749589471660941.
-119,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-120,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-121,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-122,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-123,FactQuality,2417.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2417.0 appears multiple times.
-124,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-125,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-126,FactQuality,3399.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3399.0 appears multiple times.
-127,FactQuality,3530.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3530.0 appears multiple times.
-128,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-129,FactQuality,3923.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3923.0 appears multiple times.
-130,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-131,FactQuality,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-132,FactQuality,2417.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2417.0 appears multiple times.
-133,FactQuality,3399.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3399.0 appears multiple times.
-134,FactQuality,3530.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3530.0 appears multiple times.
-135,FactQuality,3923.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3923.0 appears multiple times.
-136,FactQuality,6.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-137,FactQuality,1007.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-138,FactQuality,1794.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-139,FactQuality,2599.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-140,FactQuality,3357.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-141,FactQuality,108.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-142,FactQuality,216.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-143,FactQuality,508.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-144,FactQuality,1189.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-145,FactQuality,1525.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-146,FactQuality,1675.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-147,FactQuality,1805.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-148,FactQuality,1834.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-149,FactQuality,2361.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-150,FactQuality,3516.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-151,FactQuality,3533.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-152,FactQuality,4021.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-153,FactQuality,171.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-154,FactQuality,452.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-155,FactQuality,3597.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-156,FactQuality,64.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-157,FactQuality,284.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-158,FactQuality,833.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-159,FactQuality,2040.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-160,FactQuality,2092.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-161,FactQuality,2362.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-162,FactQuality,2935.0,OrphanForeignKey,High,Quarantine,ProductKey value -999 not found in DimProduct.
-163,FactQuality,581.0,OrphanForeignKey,High,Quarantine,DefectReasonKey value -999 not found in DimReason.
-164,FactQuality,3169.0,OrphanForeignKey,High,Quarantine,DefectReasonKey value -999 not found in DimReason.
-165,FactQuality,3557.0,OrphanForeignKey,High,Quarantine,DefectReasonKey value -999 not found in DimReason.
-166,FactQuality,4189.0,OrphanForeignKey,High,Quarantine,DefectReasonKey value -999 not found in DimReason.
-167,FactEnergy,514.0,DuplicatePrimaryKey,High,Quarantine,Primary key 514.0 appears multiple times.
-168,FactEnergy,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-169,FactEnergy,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-170,FactEnergy,2840.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2840.0 appears multiple times.
-171,FactEnergy,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-172,FactEnergy,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-173,FactEnergy,514.0,DuplicatePrimaryKey,High,Quarantine,Primary key 514.0 appears multiple times.
-174,FactEnergy,2840.0,DuplicatePrimaryKey,High,Quarantine,Primary key 2840.0 appears multiple times.
-175,FactEnergy,188.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-176,FactEnergy,1009.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-177,FactEnergy,2660.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-178,FactEnergy,2989.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-179,FactEnergy,644.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-180,FactEnergy,1203.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-181,FactEnergy,2005.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-182,FactEnergy,2384.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-183,FactEnergy,3250.0,OrphanForeignKey,High,Quarantine,ShiftKey value -999 not found in DimShift.
-184,FactEnergy,460.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-185,FactEnergy,1859.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-186,FactEnergy,3666.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-187,FactEnergy,3805.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-188,FactEnergy,2883.0,NegativeValue,Medium,Quarantine,Column EnergyKWh has negative value -51.150491581089575.
-189,FactEnergy,3818.0,NegativeValue,Medium,Quarantine,Column EnergyKWh has negative value -60.316041862528586.
-190,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-191,FactSensor,1099.0,DuplicatePrimaryKey,High,Quarantine,Primary key 1099.0 appears multiple times.
-192,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-193,FactSensor,3316.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3316.0 appears multiple times.
-194,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-195,FactSensor,4728.0,DuplicatePrimaryKey,High,Quarantine,Primary key 4728.0 appears multiple times.
-196,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-197,FactSensor,6254.0,DuplicatePrimaryKey,High,Quarantine,Primary key 6254.0 appears multiple times.
-198,FactSensor,6594.0,DuplicatePrimaryKey,High,Quarantine,Primary key 6594.0 appears multiple times.
-199,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-200,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-201,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-202,FactSensor,8845.0,DuplicatePrimaryKey,High,Quarantine,Primary key 8845.0 appears multiple times.
-203,FactSensor,9697.0,DuplicatePrimaryKey,High,Quarantine,Primary key 9697.0 appears multiple times.
-204,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-205,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-206,FactSensor,10810.0,DuplicatePrimaryKey,High,Quarantine,Primary key 10810.0 appears multiple times.
-207,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-208,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-209,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-210,FactSensor,11837.0,DuplicatePrimaryKey,High,Quarantine,Primary key 11837.0 appears multiple times.
-211,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-212,FactSensor,12315.0,DuplicatePrimaryKey,High,Quarantine,Primary key 12315.0 appears multiple times.
-213,FactSensor,nan,DuplicatePrimaryKey,High,Quarantine,Primary key nan appears multiple times.
-214,FactSensor,12636.0,DuplicatePrimaryKey,High,Quarantine,Primary key 12636.0 appears multiple times.
-215,FactSensor,1099.0,DuplicatePrimaryKey,High,Quarantine,Primary key 1099.0 appears multiple times.
-216,FactSensor,3316.0,DuplicatePrimaryKey,High,Quarantine,Primary key 3316.0 appears multiple times.
-217,FactSensor,4728.0,DuplicatePrimaryKey,High,Quarantine,Primary key 4728.0 appears multiple times.
-218,FactSensor,6254.0,DuplicatePrimaryKey,High,Quarantine,Primary key 6254.0 appears multiple times.
-219,FactSensor,6594.0,DuplicatePrimaryKey,High,Quarantine,Primary key 6594.0 appears multiple times.
-220,FactSensor,8845.0,DuplicatePrimaryKey,High,Quarantine,Primary key 8845.0 appears multiple times.
-221,FactSensor,9697.0,DuplicatePrimaryKey,High,Quarantine,Primary key 9697.0 appears multiple times.
-222,FactSensor,10810.0,DuplicatePrimaryKey,High,Quarantine,Primary key 10810.0 appears multiple times.
-223,FactSensor,11837.0,DuplicatePrimaryKey,High,Quarantine,Primary key 11837.0 appears multiple times.
-224,FactSensor,12315.0,DuplicatePrimaryKey,High,Quarantine,Primary key 12315.0 appears multiple times.
-225,FactSensor,12636.0,DuplicatePrimaryKey,High,Quarantine,Primary key 12636.0 appears multiple times.
-226,FactSensor,1472.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-227,FactSensor,2096.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-228,FactSensor,3659.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-229,FactSensor,4240.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-230,FactSensor,4333.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-231,FactSensor,6167.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-232,FactSensor,9225.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-233,FactSensor,11033.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-234,FactSensor,11152.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-235,FactSensor,11414.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-236,FactSensor,12366.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-237,FactSensor,12738.0,OrphanForeignKey,High,Quarantine,DateKey value -999 not found in DimDate.
-238,FactSensor,444.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-239,FactSensor,1055.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-240,FactSensor,1102.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-241,FactSensor,1496.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-242,FactSensor,2314.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-243,FactSensor,3503.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-244,FactSensor,4143.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-245,FactSensor,4713.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-246,FactSensor,6329.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-247,FactSensor,10722.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
-248,FactSensor,12380.0,OrphanForeignKey,High,Quarantine,MachineKey value -999 not found in DimMachine.
+ExceptionKey,ExecutionTimestamp,SourceTable,RecordIdentifier,RuleViolated,Severity,Disposition,Description,RawPayload
+1,2026-11-21T15:53:01.550900+00:00,FactProduction,FactProduction_Row_740,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'ProductionKey' is NULL / missing.,"{""ProductionKey"": null, ""DateKey"": 20240116.0, ""ShiftKey"": 1.0, ""MachineKey"": 21.0, ""ProductKey"": 4.0, ""TargetUnits"": 92.0, ""ProducedUnits"": 86.0, ""GoodUnits"": 82.0, ""RejectedUnits"": 4.0}"
+2,2026-11-21T15:53:01.550900+00:00,FactProduction,FactProduction_Row_743,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'ProductionKey' is NULL / missing.,"{""ProductionKey"": null, ""DateKey"": 20240116.0, ""ShiftKey"": 1.0, ""MachineKey"": 24.0, ""ProductKey"": 5.0, ""TargetUnits"": 101.0, ""ProducedUnits"": 91.0, ""GoodUnits"": 86.0, ""RejectedUnits"": 5.0}"
+3,2026-11-21T15:53:01.550900+00:00,FactProduction,FactProduction_Row_1157,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'ProductionKey' is NULL / missing.,"{""ProductionKey"": null, ""DateKey"": 20240125.0, ""ShiftKey"": 1.0, ""MachineKey"": 6.0, ""ProductKey"": 1.0, ""TargetUnits"": 115.0, ""ProducedUnits"": 108.0, ""GoodUnits"": 103.0, ""RejectedUnits"": 5.0}"
+4,2026-11-21T15:53:01.550900+00:00,FactProduction,FactProduction_Row_1220,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'ProductionKey' is NULL / missing.,"{""ProductionKey"": null, ""DateKey"": 20240126.0, ""ShiftKey"": 1.0, ""MachineKey"": 21.0, ""ProductKey"": 2.0, ""TargetUnits"": 116.0, ""ProducedUnits"": 105.0, ""GoodUnits"": 100.0, ""RejectedUnits"": 5.0}"
+5,2026-11-21T15:53:01.550900+00:00,FactProduction,397,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 397.0 appears multiple times.,"{""ProductionKey"": 397.0, ""DateKey"": 20240109.0, ""ShiftKey"": 1.0, ""MachineKey"": 13.0, ""ProductKey"": 2.0, ""TargetUnits"": 112.0, ""ProducedUnits"": 96.0, ""GoodUnits"": 92.0, ""RejectedUnits"": 4.0}"
+6,2026-11-21T15:53:01.550900+00:00,FactProduction,397,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 397.0 appears multiple times.,"{""ProductionKey"": 397.0, ""DateKey"": 20240109.0, ""ShiftKey"": 1.0, ""MachineKey"": 13.0, ""ProductKey"": 2.0, ""TargetUnits"": 112.0, ""ProducedUnits"": 96.0, ""GoodUnits"": 92.0, ""RejectedUnits"": 4.0}"
+7,2026-11-21T15:53:01.550900+00:00,FactProduction,4,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""ProductionKey"": 4.0, ""DateKey"": 99999999.0, ""ShiftKey"": 1.0, ""MachineKey"": 4.0, ""ProductKey"": 4.0, ""TargetUnits"": 111.0, ""ProducedUnits"": 117.0, ""GoodUnits"": 112.0, ""RejectedUnits"": 5.0}"
+8,2026-11-21T15:53:01.550900+00:00,FactProduction,275,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""ProductionKey"": 275.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 11.0, ""ProductKey"": 4.0, ""TargetUnits"": 80.0, ""ProducedUnits"": 72.0, ""GoodUnits"": 69.0, ""RejectedUnits"": 3.0}"
+9,2026-11-21T15:53:01.550900+00:00,FactProduction,577,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""ProductionKey"": 577.0, ""DateKey"": 99999999.0, ""ShiftKey"": 1.0, ""MachineKey"": 1.0, ""ProductKey"": 1.0, ""TargetUnits"": 103.0, ""ProducedUnits"": 99.0, ""GoodUnits"": 95.0, ""RejectedUnits"": 4.0}"
+10,2026-11-21T15:53:01.550900+00:00,FactProduction,627,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""ProductionKey"": 627.0, ""DateKey"": 99999999.0, ""ShiftKey"": 1.0, ""MachineKey"": 3.0, ""ProductKey"": 2.0, ""TargetUnits"": 97.0, ""ProducedUnits"": 87.0, ""GoodUnits"": 83.0, ""RejectedUnits"": 4.0}"
+11,2026-11-21T15:53:01.550900+00:00,FactProduction,1003,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""ProductionKey"": 1003.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 19.0, ""ProductKey"": 5.0, ""TargetUnits"": 102.0, ""ProducedUnits"": 95.0, ""GoodUnits"": 89.0, ""RejectedUnits"": 6.0}"
+12,2026-11-21T15:53:01.550900+00:00,FactProduction,1172,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""ProductionKey"": 1172.0, ""DateKey"": 20240125.0, ""ShiftKey"": -999.0, ""MachineKey"": 20.0, ""ProductKey"": 3.0, ""TargetUnits"": 94.0, ""ProducedUnits"": 84.0, ""GoodUnits"": 80.0, ""RejectedUnits"": 4.0}"
+13,2026-11-21T15:53:01.550900+00:00,FactProduction,370,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""ProductionKey"": 370.0, ""DateKey"": 20240108.0, ""ShiftKey"": 2.0, ""MachineKey"": -999.0, ""ProductKey"": 2.0, ""TargetUnits"": 109.0, ""ProducedUnits"": 104.0, ""GoodUnits"": 99.0, ""RejectedUnits"": 5.0}"
+14,2026-11-21T15:53:01.550900+00:00,FactProduction,134,NegativeValue,ERROR,QUARANTINED,Column GoodUnits has negative value -106.,"{""ProductionKey"": 134.0, ""DateKey"": 20240103.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ProductKey"": 2.0, ""TargetUnits"": 118.0, ""ProducedUnits"": 111.0, ""GoodUnits"": -106.0, ""RejectedUnits"": 5.0}"
+15,2026-11-21T15:53:01.550900+00:00,FactProduction,157,NegativeValue,ERROR,QUARANTINED,Column GoodUnits has negative value -86.,"{""ProductionKey"": 157.0, ""DateKey"": 20240104.0, ""ShiftKey"": 1.0, ""MachineKey"": 13.0, ""ProductKey"": 2.0, ""TargetUnits"": 103.0, ""ProducedUnits"": 90.0, ""GoodUnits"": -86.0, ""RejectedUnits"": 4.0}"
+16,2026-11-21T15:53:01.550900+00:00,FactProduction,995,NegativeValue,ERROR,QUARANTINED,Column RejectedUnits has negative value -6.,"{""ProductionKey"": 995.0, ""DateKey"": 20240121.0, ""ShiftKey"": 2.0, ""MachineKey"": 11.0, ""ProductKey"": 5.0, ""TargetUnits"": 92.0, ""ProducedUnits"": 96.0, ""GoodUnits"": 90.0, ""RejectedUnits"": -6.0}"
+17,2026-11-21T15:53:01.550900+00:00,FactProduction,267,NegativeValue,ERROR,QUARANTINED,Column TargetUnits has negative value -95.,"{""ProductionKey"": 267.0, ""DateKey"": 20240106.0, ""ShiftKey"": 2.0, ""MachineKey"": 3.0, ""ProductKey"": 5.0, ""TargetUnits"": -95.0, ""ProducedUnits"": 87.0, ""GoodUnits"": 82.0, ""RejectedUnits"": 5.0}"
+18,2026-11-21T15:53:01.550900+00:00,FactProduction,40,InvalidKPIRange,ERROR,QUARANTINED,GoodUnits (124) exceeds ProducedUnits (118).,"{""ProductionKey"": 40.0, ""DateKey"": 20240101.0, ""ShiftKey"": 2.0, ""MachineKey"": 16.0, ""ProductKey"": 2.0, ""TargetUnits"": 116.0, ""ProducedUnits"": 118.0, ""GoodUnits"": 124.0, ""RejectedUnits"": 5.0}"
+19,2026-11-21T15:53:01.550900+00:00,FactProduction,851,InvalidKPIRange,ERROR,QUARANTINED,GoodUnits (87) exceeds ProducedUnits (82).,"{""ProductionKey"": 851.0, ""DateKey"": 20240118.0, ""ShiftKey"": 2.0, ""MachineKey"": 11.0, ""ProductKey"": 4.0, ""TargetUnits"": 91.0, ""ProducedUnits"": 82.0, ""GoodUnits"": 87.0, ""RejectedUnits"": 4.0}"
+20,2026-11-21T15:53:01.550900+00:00,FactProduction,1344,InvalidKPIRange,ERROR,QUARANTINED,GoodUnits (101) exceeds ProducedUnits (88).,"{""ProductionKey"": 1344.0, ""DateKey"": 20240128.0, ""ShiftKey"": 2.0, ""MachineKey"": 24.0, ""ProductKey"": 2.0, ""TargetUnits"": 96.0, ""ProducedUnits"": 88.0, ""GoodUnits"": 101.0, ""RejectedUnits"": 4.0}"
+21,2026-11-21T15:53:01.550900+00:00,FactProduction,98,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 98.0, ""DateKey"": 20240103.0, ""ShiftKey"": 1.0, ""MachineKey"": 2.0, ""ProductKey"": 3.0, ""TargetUnits"": 116.0, ""ProducedUnits"": 119.0, ""GoodUnits"": 113.0, ""RejectedUnits"": 5.0}"
+22,2026-11-21T15:53:01.550900+00:00,FactProduction,113,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 113.0, ""DateKey"": 20240103.0, ""ShiftKey"": 1.0, ""MachineKey"": 17.0, ""ProductKey"": 2.0, ""TargetUnits"": 92.0, ""ProducedUnits"": 91.0, ""GoodUnits"": 85.0, ""RejectedUnits"": 4.0}"
+23,2026-11-21T15:53:01.550900+00:00,FactProduction,404,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 404.0, ""DateKey"": 20240109.0, ""ShiftKey"": 1.0, ""MachineKey"": 20.0, ""ProductKey"": 3.0, ""TargetUnits"": 118.0, ""ProducedUnits"": 117.0, ""GoodUnits"": 106.0, ""RejectedUnits"": 5.0}"
+24,2026-11-21T15:53:01.550900+00:00,FactProduction,408,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 408.0, ""DateKey"": 20240109.0, ""ShiftKey"": 1.0, ""MachineKey"": 24.0, ""ProductKey"": 2.0, ""TargetUnits"": 113.0, ""ProducedUnits"": 110.0, ""GoodUnits"": 101.0, ""RejectedUnits"": 5.0}"
+25,2026-11-21T15:53:01.550900+00:00,FactProduction,995,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 995.0, ""DateKey"": 20240121.0, ""ShiftKey"": 2.0, ""MachineKey"": 11.0, ""ProductKey"": 5.0, ""TargetUnits"": 92.0, ""ProducedUnits"": 96.0, ""GoodUnits"": 90.0, ""RejectedUnits"": -6.0}"
+26,2026-11-21T15:53:01.550900+00:00,FactProduction,1116,UnitSumMismatch,ERROR,QUARANTINED,GoodUnits + RejectedUnits does not equal ProducedUnits.,"{""ProductionKey"": 1116.0, ""DateKey"": 20240124.0, ""ShiftKey"": 1.0, ""MachineKey"": 12.0, ""ProductKey"": 2.0, ""TargetUnits"": 87.0, ""ProducedUnits"": 75.0, ""GoodUnits"": 70.0, ""RejectedUnits"": 3.0}"
+27,2026-11-21T15:53:01.550900+00:00,FactDowntime,FactDowntime_Row_101,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'DowntimeKey' is NULL / missing.,"{""DowntimeKey"": null, ""DateKey"": 20240103.0, ""ShiftKey"": 1.0, ""MachineKey"": 6.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": 6.340227651617042, ""Planned"": 0.0}"
+28,2026-11-21T15:53:01.550900+00:00,FactDowntime,FactDowntime_Row_106,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'DowntimeKey' is NULL / missing.,"{""DowntimeKey"": null, ""DateKey"": 20240103.0, ""ShiftKey"": 1.0, ""MachineKey"": 11.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 0.6392342912939448, ""Planned"": 1.0}"
+29,2026-11-21T15:53:01.550900+00:00,FactDowntime,FactDowntime_Row_792,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'DowntimeKey' is NULL / missing.,"{""DowntimeKey"": null, ""DateKey"": 20240117.0, ""ShiftKey"": 2.0, ""MachineKey"": 1.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 8.680664609148174, ""Planned"": 1.0}"
+30,2026-11-21T15:53:01.550900+00:00,FactDowntime,303,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 303.0 appears multiple times.,"{""DowntimeKey"": 303.0, ""DateKey"": 20240107.0, ""ShiftKey"": 1.0, ""MachineKey"": 15.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 0.05098301447442014, ""Planned"": 1.0}"
+31,2026-11-21T15:53:01.550900+00:00,FactDowntime,374,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 374.0 appears multiple times.,"{""DowntimeKey"": 374.0, ""DateKey"": 20240108.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 1.4326604286145619, ""Planned"": 0.0}"
+32,2026-11-21T15:53:01.550900+00:00,FactDowntime,647,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 647.0 appears multiple times.,"{""DowntimeKey"": 647.0, ""DateKey"": 20240114.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": 0.4165705050467617, ""Planned"": 0.0}"
+33,2026-11-21T15:53:01.550900+00:00,FactDowntime,945,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 945.0 appears multiple times.,"{""DowntimeKey"": 945.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 9.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 16.053475236783658, ""Planned"": 0.0}"
+34,2026-11-21T15:53:01.550900+00:00,FactDowntime,303,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 303.0 appears multiple times.,"{""DowntimeKey"": 303.0, ""DateKey"": 20240107.0, ""ShiftKey"": 1.0, ""MachineKey"": 15.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 0.05098301447442014, ""Planned"": 1.0}"
+35,2026-11-21T15:53:01.550900+00:00,FactDowntime,374,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 374.0 appears multiple times.,"{""DowntimeKey"": 374.0, ""DateKey"": 20240108.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 1.4326604286145619, ""Planned"": 0.0}"
+36,2026-11-21T15:53:01.550900+00:00,FactDowntime,647,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 647.0 appears multiple times.,"{""DowntimeKey"": 647.0, ""DateKey"": 20240114.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": 0.4165705050467617, ""Planned"": 0.0}"
+37,2026-11-21T15:53:01.550900+00:00,FactDowntime,945,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 945.0 appears multiple times.,"{""DowntimeKey"": 945.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 9.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 16.053475236783658, ""Planned"": 0.0}"
+38,2026-11-21T15:53:01.550900+00:00,FactDowntime,485,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""DowntimeKey"": 485.0, ""DateKey"": 99999999.0, ""ShiftKey"": 1.0, ""MachineKey"": 5.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": 0.06344263888578854, ""Planned"": 0.0}"
+39,2026-11-21T15:53:01.550900+00:00,FactDowntime,1085,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""DowntimeKey"": 1085.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 5.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 9.582217394752648, ""Planned"": 1.0}"
+40,2026-11-21T15:53:01.550900+00:00,FactDowntime,218,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""DowntimeKey"": 218.0, ""DateKey"": 20240105.0, ""ShiftKey"": -999.0, ""MachineKey"": 2.0, ""ReasonKey"": 5.0, ""DowntimeMinutes"": 4.306908357149427, ""Planned"": 0.0}"
+41,2026-11-21T15:53:01.550900+00:00,FactDowntime,636,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""DowntimeKey"": 636.0, ""DateKey"": 20240114.0, ""ShiftKey"": -999.0, ""MachineKey"": 12.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 8.284862229933696, ""Planned"": 1.0}"
+42,2026-11-21T15:53:01.550900+00:00,FactDowntime,1180,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""DowntimeKey"": 1180.0, ""DateKey"": 20240125.0, ""ShiftKey"": -999.0, ""MachineKey"": 4.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 14.742744290247586, ""Planned"": 1.0}"
+43,2026-11-21T15:53:01.550900+00:00,FactDowntime,169,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""DowntimeKey"": 169.0, ""DateKey"": 20240104.0, ""ShiftKey"": 2.0, ""MachineKey"": -999.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 4.521536960072354, ""Planned"": 0.0}"
+44,2026-11-21T15:53:01.550900+00:00,FactDowntime,516,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""DowntimeKey"": 516.0, ""DateKey"": 20240111.0, ""ShiftKey"": 2.0, ""MachineKey"": -999.0, ""ReasonKey"": 5.0, ""DowntimeMinutes"": 5.112387742158051, ""Planned"": 0.0}"
+45,2026-11-21T15:53:01.550900+00:00,FactDowntime,538,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""DowntimeKey"": 538.0, ""DateKey"": 20240112.0, ""ShiftKey"": 1.0, ""MachineKey"": -999.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 1.1010166451752859, ""Planned"": 0.0}"
+46,2026-11-21T15:53:01.550900+00:00,FactDowntime,1025,OrphanForeignKey,ERROR,QUARANTINED,ReasonKey value -999 not found in DimReason.,"{""DowntimeKey"": 1025.0, ""DateKey"": 20240122.0, ""ShiftKey"": 1.0, ""MachineKey"": 17.0, ""ReasonKey"": -999.0, ""DowntimeMinutes"": 10.170954292209553, ""Planned"": 0.0}"
+47,2026-11-21T15:53:01.550900+00:00,FactDowntime,1055,OrphanForeignKey,ERROR,QUARANTINED,ReasonKey value -999 not found in DimReason.,"{""DowntimeKey"": 1055.0, ""DateKey"": 20240122.0, ""ShiftKey"": 2.0, ""MachineKey"": 23.0, ""ReasonKey"": -999.0, ""DowntimeMinutes"": 14.750638599376478, ""Planned"": 1.0}"
+48,2026-11-21T15:53:01.550900+00:00,FactDowntime,862,NegativeDowntime,ERROR,QUARANTINED,DowntimeMinutes has negative value -2.494983298612014.,"{""DowntimeKey"": 862.0, ""DateKey"": 20240118.0, ""ShiftKey"": 2.0, ""MachineKey"": 22.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": -2.494983298612014, ""Planned"": 1.0}"
+49,2026-11-21T15:53:01.550900+00:00,FactDowntime,1047,NegativeDowntime,ERROR,QUARANTINED,DowntimeMinutes has negative value -15.143138503240118.,"{""DowntimeKey"": 1047.0, ""DateKey"": 20240122.0, ""ShiftKey"": 2.0, ""MachineKey"": 15.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": -15.143138503240118, ""Planned"": 0.0}"
+50,2026-11-21T15:53:01.550900+00:00,FactDowntime,1088,NegativeDowntime,ERROR,QUARANTINED,DowntimeMinutes has negative value -1.6322145713382576.,"{""DowntimeKey"": 1088.0, ""DateKey"": 20240123.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ReasonKey"": 5.0, ""DowntimeMinutes"": -1.6322145713382576, ""Planned"": 0.0}"
+51,2026-11-21T15:53:01.550900+00:00,FactDowntime,449,DowntimeInconsistency,ERROR,QUARANTINED,DowntimeMinutes (502.0) exceeds shift maximum limit of 480 minutes.,"{""DowntimeKey"": 449.0, ""DateKey"": 20240110.0, ""ShiftKey"": 1.0, ""MachineKey"": 17.0, ""ReasonKey"": 5.0, ""DowntimeMinutes"": 502.0, ""Planned"": 0.0}"
+52,2026-11-21T15:53:01.550900+00:00,FactDowntime,1036,DowntimeInconsistency,ERROR,QUARANTINED,DowntimeMinutes (582.0) exceeds shift maximum limit of 480 minutes.,"{""DowntimeKey"": 1036.0, ""DateKey"": 20240122.0, ""ShiftKey"": 2.0, ""MachineKey"": 4.0, ""ReasonKey"": 1.0, ""DowntimeMinutes"": 582.0, ""Planned"": 1.0}"
+53,2026-11-21T15:53:01.550900+00:00,FactDowntime,347,InvalidCategory,ERROR,QUARANTINED,Planned column has invalid domain value: -1.,"{""DowntimeKey"": 347.0, ""DateKey"": 20240108.0, ""ShiftKey"": 1.0, ""MachineKey"": 11.0, ""ReasonKey"": 3.0, ""DowntimeMinutes"": 3.273473682653126, ""Planned"": -1.0}"
+54,2026-11-21T15:53:01.550900+00:00,FactDowntime,847,InvalidCategory,ERROR,QUARANTINED,Planned column has invalid domain value: -1.,"{""DowntimeKey"": 847.0, ""DateKey"": 20240118.0, ""ShiftKey"": 2.0, ""MachineKey"": 7.0, ""ReasonKey"": 2.0, ""DowntimeMinutes"": 13.897495565435783, ""Planned"": -1.0}"
+55,2026-11-21T15:53:01.550900+00:00,FactQuality,FactQuality_Row_1375,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'QualityKey' is NULL / missing.,"{""QualityKey"": null, ""DateKey"": 20240129.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+56,2026-11-21T15:53:01.550900+00:00,FactQuality,71,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 71.0 appears multiple times.,"{""QualityKey"": 71.0, ""DateKey"": 20240102.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+57,2026-11-21T15:53:01.550900+00:00,FactQuality,944,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 944.0 appears multiple times.,"{""QualityKey"": 944.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 7.0, ""DefectCount"": 4.0}"
+58,2026-11-21T15:53:01.550900+00:00,FactQuality,1334,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1334.0 appears multiple times.,"{""QualityKey"": 1334.0, ""DateKey"": 20240128.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ProductKey"": 1.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+59,2026-11-21T15:53:01.550900+00:00,FactQuality,1415,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1415.0 appears multiple times.,"{""QualityKey"": 1415.0, ""DateKey"": 20240130.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 5.0}"
+60,2026-11-21T15:53:01.550900+00:00,FactQuality,71,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 71.0 appears multiple times.,"{""QualityKey"": 71.0, ""DateKey"": 20240102.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+61,2026-11-21T15:53:01.550900+00:00,FactQuality,944,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 944.0 appears multiple times.,"{""QualityKey"": 944.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 7.0, ""DefectCount"": 4.0}"
+62,2026-11-21T15:53:01.550900+00:00,FactQuality,1334,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1334.0 appears multiple times.,"{""QualityKey"": 1334.0, ""DateKey"": 20240128.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ProductKey"": 1.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+63,2026-11-21T15:53:01.550900+00:00,FactQuality,1415,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1415.0 appears multiple times.,"{""QualityKey"": 1415.0, ""DateKey"": 20240130.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 5.0}"
+64,2026-11-21T15:53:01.550900+00:00,FactQuality,553,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""QualityKey"": 553.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 1.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+65,2026-11-21T15:53:01.550900+00:00,FactQuality,704,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""QualityKey"": 704.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+66,2026-11-21T15:53:01.550900+00:00,FactQuality,888,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""QualityKey"": 888.0, ""DateKey"": 20240119.0, ""ShiftKey"": -999.0, ""MachineKey"": 24.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 7.0}"
+67,2026-11-21T15:53:01.550900+00:00,FactQuality,147,NegativeValue,ERROR,QUARANTINED,DefectCount has negative value -5.,"{""QualityKey"": 147.0, ""DateKey"": 20240104.0, ""ShiftKey"": 1.0, ""MachineKey"": 3.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": -5.0}"
+68,2026-11-21T15:53:01.550900+00:00,FactQuality,264,NegativeValue,ERROR,QUARANTINED,DefectCount has negative value -5.,"{""QualityKey"": 264.0, ""DateKey"": 20240106.0, ""ShiftKey"": 1.0, ""MachineKey"": 24.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 6.0, ""DefectCount"": -5.0}"
+69,2026-11-21T15:53:01.550900+00:00,FactQuality,71,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (6) does not match FactProduction RejectedUnits.,"{""QualityKey"": 71.0, ""DateKey"": 20240102.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+70,2026-11-21T15:53:01.550900+00:00,FactQuality,147,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (-5) does not match FactProduction RejectedUnits.,"{""QualityKey"": 147.0, ""DateKey"": 20240104.0, ""ShiftKey"": 1.0, ""MachineKey"": 3.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": -5.0}"
+71,2026-11-21T15:53:01.550900+00:00,FactQuality,264,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (-5) does not match FactProduction RejectedUnits.,"{""QualityKey"": 264.0, ""DateKey"": 20240106.0, ""ShiftKey"": 1.0, ""MachineKey"": 24.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 6.0, ""DefectCount"": -5.0}"
+72,2026-11-21T15:53:01.550900+00:00,FactQuality,397,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (4) does not match FactProduction RejectedUnits.,"{""QualityKey"": 397.0, ""DateKey"": 20240109.0, ""ShiftKey"": 1.0, ""MachineKey"": 13.0, ""ProductKey"": 2.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+73,2026-11-21T15:53:01.550900+00:00,FactQuality,944,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (4) does not match FactProduction RejectedUnits.,"{""QualityKey"": 944.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 7.0, ""DefectCount"": 4.0}"
+74,2026-11-21T15:53:01.550900+00:00,FactQuality,995,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (6) does not match FactProduction RejectedUnits.,"{""QualityKey"": 995.0, ""DateKey"": 20240121.0, ""ShiftKey"": 2.0, ""MachineKey"": 11.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+75,2026-11-21T15:53:01.550900+00:00,FactQuality,1334,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (4) does not match FactProduction RejectedUnits.,"{""QualityKey"": 1334.0, ""DateKey"": 20240128.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ProductKey"": 1.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+76,2026-11-21T15:53:01.550900+00:00,FactQuality,1415,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (5) does not match FactProduction RejectedUnits.,"{""QualityKey"": 1415.0, ""DateKey"": 20240130.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 5.0}"
+77,2026-11-21T15:53:01.550900+00:00,FactQuality,71,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (6) does not match FactProduction RejectedUnits.,"{""QualityKey"": 71.0, ""DateKey"": 20240102.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 5.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 6.0}"
+78,2026-11-21T15:53:01.550900+00:00,FactQuality,944,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (4) does not match FactProduction RejectedUnits.,"{""QualityKey"": 944.0, ""DateKey"": 20240120.0, ""ShiftKey"": 2.0, ""MachineKey"": 8.0, ""ProductKey"": 3.0, ""DefectReasonKey"": 7.0, ""DefectCount"": 4.0}"
+79,2026-11-21T15:53:01.550900+00:00,FactQuality,1334,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (4) does not match FactProduction RejectedUnits.,"{""QualityKey"": 1334.0, ""DateKey"": 20240128.0, ""ShiftKey"": 2.0, ""MachineKey"": 14.0, ""ProductKey"": 1.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 4.0}"
+80,2026-11-21T15:53:01.550900+00:00,FactQuality,1415,DefectCountMismatch,ERROR,QUARANTINED,DefectCount (5) does not match FactProduction RejectedUnits.,"{""QualityKey"": 1415.0, ""DateKey"": 20240130.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""ProductKey"": 4.0, ""DefectReasonKey"": 6.0, ""DefectCount"": 5.0}"
+81,2026-11-21T15:53:01.550900+00:00,FactEnergy,FactEnergy_Row_64,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'EnergyKey' is NULL / missing.,"{""EnergyKey"": null, ""DateKey"": 20240102.0, ""ShiftKey"": 1.0, ""MachineKey"": 17.0, ""EnergyKWh"": 66.55856342961233}"
+82,2026-11-21T15:53:01.550900+00:00,FactEnergy,FactEnergy_Row_339,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'EnergyKey' is NULL / missing.,"{""EnergyKey"": null, ""DateKey"": 20240108.0, ""ShiftKey"": 1.0, ""MachineKey"": 4.0, ""EnergyKWh"": 70.24533851994953}"
+83,2026-11-21T15:53:01.550900+00:00,FactEnergy,FactEnergy_Row_740,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'EnergyKey' is NULL / missing.,"{""EnergyKey"": null, ""DateKey"": 20240116.0, ""ShiftKey"": 1.0, ""MachineKey"": 21.0, ""EnergyKWh"": 73.65918197344449}"
+84,2026-11-21T15:53:01.550900+00:00,FactEnergy,FactEnergy_Row_1094,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'EnergyKey' is NULL / missing.,"{""EnergyKey"": null, ""DateKey"": 20240123.0, ""ShiftKey"": 2.0, ""MachineKey"": 15.0, ""EnergyKWh"": 59.05746699374163}"
+85,2026-11-21T15:53:01.550900+00:00,FactEnergy,805,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 805.0 appears multiple times.,"{""EnergyKey"": 805.0, ""DateKey"": 20240117.0, ""ShiftKey"": 2.0, ""MachineKey"": 13.0, ""EnergyKWh"": 65.65923915343251}"
+86,2026-11-21T15:53:01.550900+00:00,FactEnergy,805,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 805.0 appears multiple times.,"{""EnergyKey"": 805.0, ""DateKey"": 20240117.0, ""ShiftKey"": 2.0, ""MachineKey"": 13.0, ""EnergyKWh"": 65.65923915343251}"
+87,2026-11-21T15:53:01.550900+00:00,FactEnergy,765,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""EnergyKey"": 765.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 21.0, ""EnergyKWh"": 96.28261285282534}"
+88,2026-11-21T15:53:01.550900+00:00,FactEnergy,1152,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""EnergyKey"": 1152.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 24.0, ""EnergyKWh"": 88.73657889305474}"
+89,2026-11-21T15:53:01.550900+00:00,FactEnergy,1373,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""EnergyKey"": 1373.0, ""DateKey"": 99999999.0, ""ShiftKey"": 2.0, ""MachineKey"": 5.0, ""EnergyKWh"": 49.41255489854779}"
+90,2026-11-21T15:53:01.550900+00:00,FactEnergy,258,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""EnergyKey"": 258.0, ""DateKey"": 20240106.0, ""ShiftKey"": -999.0, ""MachineKey"": 18.0, ""EnergyKWh"": 63.98108102164386}"
+91,2026-11-21T15:53:01.550900+00:00,FactEnergy,384,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""EnergyKey"": 384.0, ""DateKey"": 20240108.0, ""ShiftKey"": -999.0, ""MachineKey"": 24.0, ""EnergyKWh"": 74.43516329848377}"
+92,2026-11-21T15:53:01.550900+00:00,FactEnergy,1280,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""EnergyKey"": 1280.0, ""DateKey"": 20240127.0, ""ShiftKey"": -999.0, ""MachineKey"": 8.0, ""EnergyKWh"": 63.292791134259836}"
+93,2026-11-21T15:53:01.550900+00:00,FactEnergy,1410,OrphanForeignKey,ERROR,QUARANTINED,ShiftKey value -999 not found in DimShift.,"{""EnergyKey"": 1410.0, ""DateKey"": 20240130.0, ""ShiftKey"": -999.0, ""MachineKey"": 18.0, ""EnergyKWh"": 70.83983859349121}"
+94,2026-11-21T15:53:01.550900+00:00,FactEnergy,1034,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""EnergyKey"": 1034.0, ""DateKey"": 20240122.0, ""ShiftKey"": 2.0, ""MachineKey"": -999.0, ""EnergyKWh"": 64.27684151514339}"
+95,2026-11-21T15:53:01.550900+00:00,FactEnergy,151,NullEnergyReading,ERROR,QUARANTINED,EnergyKWh reading is NULL / missing.,"{""EnergyKey"": 151.0, ""DateKey"": 20240104.0, ""ShiftKey"": 1.0, ""MachineKey"": 7.0, ""EnergyKWh"": null}"
+96,2026-11-21T15:53:01.550900+00:00,FactEnergy,199,NullEnergyReading,ERROR,QUARANTINED,EnergyKWh reading is NULL / missing.,"{""EnergyKey"": 199.0, ""DateKey"": 20240105.0, ""ShiftKey"": 1.0, ""MachineKey"": 7.0, ""EnergyKWh"": null}"
+97,2026-11-21T15:53:01.550900+00:00,FactEnergy,277,NullEnergyReading,ERROR,QUARANTINED,EnergyKWh reading is NULL / missing.,"{""EnergyKey"": 277.0, ""DateKey"": 20240106.0, ""ShiftKey"": 2.0, ""MachineKey"": 13.0, ""EnergyKWh"": null}"
+98,2026-11-21T15:53:01.550900+00:00,FactEnergy,1175,NegativeValue,ERROR,QUARANTINED,EnergyKWh has negative value -103.67319398418748.,"{""EnergyKey"": 1175.0, ""DateKey"": 20240125.0, ""ShiftKey"": 1.0, ""MachineKey"": 23.0, ""EnergyKWh"": -103.67319398418748}"
+99,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_145,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240102, ""MachineKey"": 1, ""SensorName"": ""Vibration"", ""SensorValue"": 41.543389672326526, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+100,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_471,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240104, ""MachineKey"": 14, ""SensorName"": ""Temp"", ""SensorValue"": 49.773147246743534, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+101,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_534,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240104, ""MachineKey"": 11, ""SensorName"": ""Temp"", ""SensorValue"": 34.274717499975594, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+102,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_550,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240104, ""MachineKey"": 16, ""SensorName"": ""Vibration"", ""SensorValue"": 51.113504293981116, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+103,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_886,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240107, ""MachineKey"": 8, ""SensorName"": ""Vibration"", ""SensorValue"": 56.75606633164478, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+104,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_1019,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240108, ""MachineKey"": 4, ""SensorName"": ""Pressure"", ""SensorValue"": 44.516544621349816, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+105,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_1499,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240111, ""MachineKey"": 20, ""SensorName"": ""Pressure"", ""SensorValue"": 41.171344854523994, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+106,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_1523,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240111, ""MachineKey"": 4, ""SensorName"": ""Pressure"", ""SensorValue"": 69.81199998686964, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+107,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_1898,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240114, ""MachineKey"": 9, ""SensorName"": ""Pressure"", ""SensorValue"": 51.762926210964594, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+108,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_2130,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240115, ""MachineKey"": 15, ""SensorName"": ""Temp"", ""SensorValue"": 39.127646784116465, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+109,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_2663,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240119, ""MachineKey"": 24, ""SensorName"": ""Pressure"", ""SensorValue"": 40.231118636125586, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+110,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_3160,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240122, ""MachineKey"": 22, ""SensorName"": ""Vibration"", ""SensorValue"": 48.01107463114934, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+111,2026-11-21T15:53:01.550900+00:00,FactSensor,FactSensor_Row_3263,NullPrimaryKey,ERROR,QUARANTINED,Primary key column 'SensorKey' is NULL / missing.,"{""SensorKey"": null, ""DateKey"": 20240123, ""MachineKey"": 8, ""SensorName"": ""Pressure"", ""SensorValue"": 48.35319977554657, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+112,2026-11-21T15:53:01.550900+00:00,FactSensor,174,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 174.0 appears multiple times.,"{""SensorKey"": 174.0, ""DateKey"": 20240102, ""MachineKey"": 10, ""SensorName"": ""Pressure"", ""SensorValue"": 48.20773374550245, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+113,2026-11-21T15:53:01.550900+00:00,FactSensor,816,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 816.0 appears multiple times.,"{""SensorKey"": 816.0, ""DateKey"": 20240106, ""MachineKey"": 8, ""SensorName"": ""Pressure"", ""SensorValue"": 31.903830310827708, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+114,2026-11-21T15:53:01.550900+00:00,FactSensor,1015,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1015.0 appears multiple times.,"{""SensorKey"": 1015.0, ""DateKey"": 20240108, ""MachineKey"": 3, ""SensorName"": ""Temp"", ""SensorValue"": 60.247567337507725, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+115,2026-11-21T15:53:01.550900+00:00,FactSensor,1118,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1118.0 appears multiple times.,"{""SensorKey"": 1118.0, ""DateKey"": 20240108, ""MachineKey"": 13, ""SensorName"": ""Vibration"", ""SensorValue"": 34.14396625399745, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+116,2026-11-21T15:53:01.550900+00:00,FactSensor,2151,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 2151.0 appears multiple times.,"{""SensorKey"": 2151.0, ""DateKey"": 20240115, ""MachineKey"": 21, ""SensorName"": ""Pressure"", ""SensorValue"": 54.889100117578046, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+117,2026-11-21T15:53:01.550900+00:00,FactSensor,2974,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 2974.0 appears multiple times.,"{""SensorKey"": 2974.0, ""DateKey"": 20240121, ""MachineKey"": 8, ""SensorName"": ""Temp"", ""SensorValue"": 39.73179863226492, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+118,2026-11-21T15:53:01.550900+00:00,FactSensor,3068,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3068.0 appears multiple times.,"{""SensorKey"": 3068.0, ""DateKey"": 20240122, ""MachineKey"": 15, ""SensorName"": ""Vibration"", ""SensorValue"": 57.8044818061007, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+119,2026-11-21T15:53:01.550900+00:00,FactSensor,3447,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3447.0 appears multiple times.,"{""SensorKey"": 3447.0, ""DateKey"": 20240124, ""MachineKey"": 21, ""SensorName"": ""Pressure"", ""SensorValue"": 45.22032279463905, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+120,2026-11-21T15:53:01.550900+00:00,FactSensor,3860,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3860.0 appears multiple times.,"{""SensorKey"": 3860.0, ""DateKey"": 20240127, ""MachineKey"": 15, ""SensorName"": ""Vibration"", ""SensorValue"": 42.094852934737126, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+121,2026-11-21T15:53:01.550900+00:00,FactSensor,4132,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 4132.0 appears multiple times.,"{""SensorKey"": 4132.0, ""DateKey"": 20240129, ""MachineKey"": 10, ""SensorName"": ""Temp"", ""SensorValue"": 45.14371466425768, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+122,2026-11-21T15:53:01.550900+00:00,FactSensor,174,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 174.0 appears multiple times.,"{""SensorKey"": 174.0, ""DateKey"": 20240102, ""MachineKey"": 10, ""SensorName"": ""Pressure"", ""SensorValue"": 48.20773374550245, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+123,2026-11-21T15:53:01.550900+00:00,FactSensor,816,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 816.0 appears multiple times.,"{""SensorKey"": 816.0, ""DateKey"": 20240106, ""MachineKey"": 8, ""SensorName"": ""Pressure"", ""SensorValue"": 31.903830310827708, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+124,2026-11-21T15:53:01.550900+00:00,FactSensor,1015,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1015.0 appears multiple times.,"{""SensorKey"": 1015.0, ""DateKey"": 20240108, ""MachineKey"": 3, ""SensorName"": ""Temp"", ""SensorValue"": 60.247567337507725, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+125,2026-11-21T15:53:01.550900+00:00,FactSensor,1118,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 1118.0 appears multiple times.,"{""SensorKey"": 1118.0, ""DateKey"": 20240108, ""MachineKey"": 13, ""SensorName"": ""Vibration"", ""SensorValue"": 34.14396625399745, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+126,2026-11-21T15:53:01.550900+00:00,FactSensor,2151,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 2151.0 appears multiple times.,"{""SensorKey"": 2151.0, ""DateKey"": 20240115, ""MachineKey"": 21, ""SensorName"": ""Pressure"", ""SensorValue"": 54.889100117578046, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+127,2026-11-21T15:53:01.550900+00:00,FactSensor,2974,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 2974.0 appears multiple times.,"{""SensorKey"": 2974.0, ""DateKey"": 20240121, ""MachineKey"": 8, ""SensorName"": ""Temp"", ""SensorValue"": 39.73179863226492, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+128,2026-11-21T15:53:01.550900+00:00,FactSensor,3068,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3068.0 appears multiple times.,"{""SensorKey"": 3068.0, ""DateKey"": 20240122, ""MachineKey"": 15, ""SensorName"": ""Vibration"", ""SensorValue"": 57.8044818061007, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+129,2026-11-21T15:53:01.550900+00:00,FactSensor,3447,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3447.0 appears multiple times.,"{""SensorKey"": 3447.0, ""DateKey"": 20240124, ""MachineKey"": 21, ""SensorName"": ""Pressure"", ""SensorValue"": 45.22032279463905, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+130,2026-11-21T15:53:01.550900+00:00,FactSensor,3860,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 3860.0 appears multiple times.,"{""SensorKey"": 3860.0, ""DateKey"": 20240127, ""MachineKey"": 15, ""SensorName"": ""Vibration"", ""SensorValue"": 42.094852934737126, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+131,2026-11-21T15:53:01.550900+00:00,FactSensor,4132,DuplicatePrimaryKey,ERROR,QUARANTINED,Primary key 4132.0 appears multiple times.,"{""SensorKey"": 4132.0, ""DateKey"": 20240129, ""MachineKey"": 10, ""SensorName"": ""Temp"", ""SensorValue"": 45.14371466425768, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+132,2026-11-21T15:53:01.550900+00:00,FactSensor,43,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 43.0, ""DateKey"": 99999999, ""MachineKey"": 15, ""SensorName"": ""Temp"", ""SensorValue"": 69.96730891691786, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+133,2026-11-21T15:53:01.550900+00:00,FactSensor,234,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 234.0, ""DateKey"": 99999999, ""MachineKey"": 6, ""SensorName"": ""Pressure"", ""SensorValue"": 51.58119084905109, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+134,2026-11-21T15:53:01.550900+00:00,FactSensor,283,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 283.0, ""DateKey"": 99999999, ""MachineKey"": 23, ""SensorName"": ""Temp"", ""SensorValue"": 50.38581122980917, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+135,2026-11-21T15:53:01.550900+00:00,FactSensor,389,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 389.0, ""DateKey"": 99999999, ""MachineKey"": 10, ""SensorName"": ""Vibration"", ""SensorValue"": 44.23352707766307, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+136,2026-11-21T15:53:01.550900+00:00,FactSensor,792,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 792.0, ""DateKey"": 99999999, ""MachineKey"": 24, ""SensorName"": ""Pressure"", ""SensorValue"": 42.380084761730096, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+137,2026-11-21T15:53:01.550900+00:00,FactSensor,853,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 853.0, ""DateKey"": 99999999, ""MachineKey"": 21, ""SensorName"": ""Temp"", ""SensorValue"": 37.20503204086102, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+138,2026-11-21T15:53:01.550900+00:00,FactSensor,1314,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 1314.0, ""DateKey"": 99999999, ""MachineKey"": 6, ""SensorName"": ""Pressure"", ""SensorValue"": 43.90896856176679, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+139,2026-11-21T15:53:01.550900+00:00,FactSensor,3186,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 3186.0, ""DateKey"": 99999999, ""MachineKey"": 6, ""SensorName"": ""Pressure"", ""SensorValue"": 41.861367941482534, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+140,2026-11-21T15:53:01.550900+00:00,FactSensor,3416,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 3416.0, ""DateKey"": 99999999, ""MachineKey"": 11, ""SensorName"": ""Vibration"", ""SensorValue"": 73.20230375142856, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+141,2026-11-21T15:53:01.550900+00:00,FactSensor,3739,InvalidTimestamp,ERROR,QUARANTINED,DateKey 99999999 is invalid or out of range.,"{""SensorKey"": 3739.0, ""DateKey"": 99999999, ""MachineKey"": 23, ""SensorName"": ""Temp"", ""SensorValue"": 54.41075680171162, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+142,2026-11-21T15:53:01.550900+00:00,FactSensor,4,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 4.0, ""DateKey"": 20240101, ""MachineKey"": -999, ""SensorName"": ""Temp"", ""SensorValue"": 53.68750784082499, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+143,2026-11-21T15:53:01.550900+00:00,FactSensor,848,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 848.0, ""DateKey"": 20240106, ""MachineKey"": -999, ""SensorName"": ""Vibration"", ""SensorValue"": 45.356196078045514, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+144,2026-11-21T15:53:01.550900+00:00,FactSensor,2327,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 2327.0, ""DateKey"": 20240117, ""MachineKey"": -999, ""SensorName"": ""Vibration"", ""SensorValue"": 42.69533741091048, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+145,2026-11-21T15:53:01.550900+00:00,FactSensor,3582,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 3582.0, ""DateKey"": 20240125, ""MachineKey"": -999, ""SensorName"": ""Pressure"", ""SensorValue"": 53.303854946215736, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+146,2026-11-21T15:53:01.550900+00:00,FactSensor,4239,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 4239.0, ""DateKey"": 20240130, ""MachineKey"": -999, ""SensorName"": ""Pressure"", ""SensorValue"": 51.76064663715843, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+147,2026-11-21T15:53:01.550900+00:00,FactSensor,4250,OrphanForeignKey,ERROR,QUARANTINED,MachineKey value -999 not found in DimMachine.,"{""SensorKey"": 4250.0, ""DateKey"": 20240130, ""MachineKey"": -999, ""SensorName"": ""Vibration"", ""SensorValue"": 42.6406835060952, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+148,2026-11-21T15:53:01.550900+00:00,FactSensor,919,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 919.0, ""DateKey"": 20240107, ""MachineKey"": 19, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 41.3719998042673, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+149,2026-11-21T15:53:01.550900+00:00,FactSensor,1227,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 1227.0, ""DateKey"": 20240109, ""MachineKey"": 1, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 66.4273430193763, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+150,2026-11-21T15:53:01.550900+00:00,FactSensor,2070,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 2070.0, ""DateKey"": 20240115, ""MachineKey"": 18, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 49.59253642182807, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+151,2026-11-21T15:53:01.550900+00:00,FactSensor,2479,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 2479.0, ""DateKey"": 20240118, ""MachineKey"": 11, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 46.45236327644516, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+152,2026-11-21T15:53:01.550900+00:00,FactSensor,2499,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 2499.0, ""DateKey"": 20240118, ""MachineKey"": 17, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 35.02653251279732, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"
+153,2026-11-21T15:53:01.550900+00:00,FactSensor,3797,InvalidCategory,ERROR,QUARANTINED,SensorName 'INVALID_SENSOR_TYPE' is not recognized.,"{""SensorKey"": 3797.0, ""DateKey"": 20240127, ""MachineKey"": 18, ""SensorName"": ""INVALID_SENSOR_TYPE"", ""SensorValue"": 58.73335312712291, ""external_machine_id"": null, ""is_external"": 0, ""UDI"": null}"

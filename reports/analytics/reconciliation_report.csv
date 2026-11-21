@@ -1,0 +1,5 @@
+Metric,SourceTotal,AggregatedTotal,Variance,Status
+ProducedUnits,133478.0,133478.0,0.0,BALANCED
+GoodUnits,127133.0,127133.0,0.0,BALANCED
+DowntimeMinutes,7056.83,7056.83,0.0,BALANCED
+EnergyKWh,92885.22,92885.22,0.0,BALANCED
