@@ -1,6 +1,0 @@
-Created At: 2026-11-20T22:40:16+02:00
-Completed At: 2026-11-20T22:40:17+02:00
-Command exited with code 1.
-
-Command output:
-C:\Users\Hp\AppData\Local\Programs\Python\Python312\python.exe: Error while finding module specification for 'src.run_pipeline' (ModuleNotFoundError: No module named 'src')

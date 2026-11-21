@@ -1,7 +1,0 @@
-Created At: 2026-11-20T22:47:03+02:00
-Completed At: 2026-11-20T22:47:07+02:00
-Command exited with code 1.
-
-Command output:
-
-no tests ran in 0.02s

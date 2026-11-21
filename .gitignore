@@ -1,31 +1,35 @@
-# General
+# Python & Bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.swp
-*.swo
-*.log
-*.sqlite3
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# Virtual Environments
 .venv/
-env/
 venv/
+env/
 
 # Build artifacts
 build/
-Dist/
+dist/
 *.egg-info/
 
-# Data
-data/external/ai4i/*.zip
-
-# System generated files (Antigravity)
+# Databases & Metadata
+*.db
+*.sqlite3
+*.metadata.json
 .system_generated/
-
-# Pytest cache
-.pytest_cache/
-
-# Scratch files
 scratch/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS files
+*.swp
+*.swo
+*.log
+
+# Generated Pipeline Data (preserve original external datasets)
+data/raw/
+data/curated/
+!data/external/
+data/external/ai4i/*.zip

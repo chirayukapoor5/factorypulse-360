@@ -1,4 +1,0 @@
-Created At: 2026-11-20T22:40:37+02:00
-Completed At: 2026-11-20T22:40:37+02:00
-You have 1 background task(s) currently running:
-[{"taskId":"00691f59-1a7d-42ed-8916-27f2977073aa/task-134","toolName":"run_command","toolSummary":"Install dependencies","description":"powershell -Command \"Set-Location 'C:\\Users\\Hp\\.gemini\\antigravity\\brain\\00691f59-1a7d-42ed-8916-27f2977073aa'; \u0026 'C:\\Users\\Hp\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -m pip install -r requirements.txt\"","startTime":"2026-11-20T20:40:25Z","logUri":"file:///C:/Users/Hp/.gemini/antigravity/brain/00691f59-1a7d-42ed-8916-27f2977073aa/.system_generated/tasks/task-134.log"}]

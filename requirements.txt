@@ -1,10 +1,4 @@
-# requirements.txt
 pandas>=2.2.0
 numpy>=1.26.0
-sqlite3; python_version<'3.12'
 openpyxl>=3.1.2
-pyyaml>=6.0
 pytest>=7.4.0
-click>=8.1.7
-# optional for Power BI integration (not executed in CI)
-# pbixr is a placeholder for any PBIX handling library

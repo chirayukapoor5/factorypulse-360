@@ -1,7 +1,0 @@
-Created At: 2026-11-20T21:25:55+02:00
-Completed At: 2026-11-20T21:25:55+02:00
-Command exited with code 1.
-
-Command output:
-Unable to create process using 'C:\Users\Hp\anaconda3\python.exe -m src.run_pipeline --seed 20261120 --days 90': The system cannot find the file specified.
-
