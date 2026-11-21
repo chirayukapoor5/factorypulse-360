@@ -43,8 +43,10 @@ jobs:
           pytest -v
 
       - name: Execute analytical report generation and verify reconciliation
+        env:
+          PYTHONPATH: .
         run: |
-          python src/generate_reports.py
+          python -m src.generate_reports
 
       - name: Upload Analytical Reports
         uses: actions/upload-artifact@v4
