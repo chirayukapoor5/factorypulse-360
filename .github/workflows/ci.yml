@@ -1,0 +1,68 @@
+name: CI Automation & Manufacturing Analytics Verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify required source datasets
+        run: |
+          test -f data/external/ai4i/ai4i2020.csv || { echo "ERROR: UCI AI4I 2020 dataset missing at data/external/ai4i/ai4i2020.csv"; exit 1; }
+          echo "AI4I 2020 dataset verified successfully."
+
+      - name: Execute deterministic data pipeline
+        run: |
+          python -m src.run_pipeline --seed 42 --days 30 --start-date 2024-01-01 --output-dir data
+
+      - name: Run full pytest test suite
+        run: |
+          pytest -v
+
+      - name: Execute analytical report generation and verify reconciliation
+        run: |
+          python src/generate_reports.py
+
+      - name: Upload Analytical Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: analytical-reports
+          path: reports/analytics/
+          if-no-files-found: error
+
+      - name: Upload Data Quality Exceptions
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-quality-exceptions
+          path: data/curated/FactDQExceptions.csv
+          if-no-files-found: error
+
+      - name: Upload BI Handoff Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: bi-handoff-package
+          path: bi_handoff/
+          if-no-files-found: error

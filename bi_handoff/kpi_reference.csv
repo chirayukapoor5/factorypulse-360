@@ -1,0 +1,7 @@
+Scope,Grain,Entity,OperatingMinutes,PlannedProductionMinutes,AvailabilityPct,IdealProductionMinutes,PerformancePct,GoodUnits,TotalUnits,QualityPct,OEE_Pct,TotalEnergyKWh,EnergyIntensity_kWhPerUnit,FormulaNotes
+Overall Enterprise,Enterprise,All Lines / All Shifts (30 Days),684143.17,688120.98,99.42,133478.0,19.51,127133,133478,95.25,18.48,92885.22,0.7306,"Weighted aggregates: Avail=Operating/Planned, Perf=Ideal/Operating, Qual=Good/Total, OEE=A*P*Q, EI=Energy/Good"
+Production Line,Line,Line 1,228186.76,229398.73,99.47,44750.0,19.61,42617,44750,95.23,18.58,29746.4,0.698,Line aggregate over 30 days
+Production Line,Line,Line 2,227952.37,229430.94,99.36,44333.0,19.45,42251,44333,95.3,18.42,29948.62,0.7088,Line aggregate over 30 days
+Production Line,Line,Line 3,228004.04,229291.31,99.44,44395.0,19.47,42265,44395,95.2,18.43,33190.19,0.7853,Line aggregate over 30 days
+Operating Shift,Shift,Shift 1,342142.37,344089.14,99.43,66604.0,19.47,63440,66604,95.25,18.44,46634.61,0.7351,Shift aggregate over all lines and 30 days
+Operating Shift,Shift,Shift 2,342000.79,344031.84,99.41,66874.0,19.55,63693,66874,95.24,18.51,46250.61,0.7261,Shift aggregate over all lines and 30 days

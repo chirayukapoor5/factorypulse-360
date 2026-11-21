@@ -1,0 +1,173 @@
+/* ==========================================================================
+   FactoryPulse 360 — Production-Ready DAX Measures Library
+   Compatible with: Microsoft Power BI Desktop & Excel Power Pivot
+   ========================================================================== */
+
+// --------------------------------------------------------------------------
+// 1. BASE MEASURES & UNIT TOTALS
+// --------------------------------------------------------------------------
+
+[Total Produced Units] = 
+SUM('FactProduction'[ProducedUnits])
+
+[Total Good Units] = 
+SUM('FactProduction'[GoodUnits])
+
+[Total Rejected Units] = 
+SUM('FactProduction'[RejectedUnits])
+
+[Total Target Units] = 
+SUM('FactProduction'[TargetUnits])
+
+[Target Variance Units] = 
+[Total Produced Units] - [Total Target Units]
+
+[Target Variance Pct] = 
+DIVIDE([Target Variance Units], [Total Target Units], 0)
+
+[Total Defects Count] = 
+SUM('FactQuality'[DefectCount])
+
+[Total Energy kWh] = 
+SUM('FactEnergy'[EnergyKWh])
+
+[Total Sensor Readings] = 
+COUNTROWS('FactSensor')
+
+// --------------------------------------------------------------------------
+// 2. EQUIPMENT DURATIONS & TIME LOSSES
+// --------------------------------------------------------------------------
+
+[Total Downtime Minutes] = 
+SUM('FactDowntime'[DowntimeMinutes])
+
+[Planned Maintenance Minutes] = 
+CALCULATE(
+    SUM('FactDowntime'[DowntimeMinutes]),
+    'FactDowntime'[Planned] = TRUE()
+)
+
+[Unplanned Downtime Minutes] = 
+CALCULATE(
+    SUM('FactDowntime'[DowntimeMinutes]),
+    'FactDowntime'[Planned] = FALSE()
+)
+
+[Active Machine Count] = 
+DISTINCTCOUNT('FactProduction'[MachineKey])
+
+[Scheduled Production Minutes] = 
+// Dynamically computes scheduled minutes based on machine count and 480 min/shift scheduled time
+VAR _Machines = DISTINCTCOUNT('DimMachine'[MachineKey])
+VAR _Shifts = DISTINCTCOUNT('DimShift'[ShiftKey])
+VAR _Dates = DISTINCTCOUNT('DimDate'[DateKey])
+RETURN
+    _Machines * _Shifts * _Dates * 480.0
+
+[Planned Production Minutes] = 
+VAR _Planned = [Scheduled Production Minutes] - [Planned Maintenance Minutes]
+RETURN
+    MAX(0.0, _Planned)
+
+[Operating Minutes] = 
+VAR _Operating = [Planned Production Minutes] - [Unplanned Downtime Minutes]
+RETURN
+    MAX(0.0, _Operating)
+
+[Ideal Production Minutes] = 
+SUMX(
+    'FactProduction',
+    'FactProduction'[ProducedUnits] * RELATED('DimProduct'[IdealCycleTimeMinutes])
+)
+
+// --------------------------------------------------------------------------
+// 3. CORE MANUFACTURING KPIS (AVAILABILITY, PERFORMANCE, QUALITY, OEE)
+// --------------------------------------------------------------------------
+
+[Availability Pct] = 
+VAR _Operating = [Operating Minutes]
+VAR _Planned = [Planned Production Minutes]
+RETURN
+    IF(
+        _Planned <= 0,
+        0.0,
+        MIN(1.0, DIVIDE(_Operating, _Planned, 0.0))
+    )
+
+[Performance Pct] = 
+VAR _Ideal = [Ideal Production Minutes]
+VAR _Operating = [Operating Minutes]
+RETURN
+    IF(
+        _Operating <= 0 || [Total Produced Units] <= 0,
+        0.0,
+        DIVIDE(_Ideal, _Operating, 0.0)
+    )
+
+[Quality Pct] = 
+VAR _Good = [Total Good Units]
+VAR _Total = [Total Produced Units]
+RETURN
+    IF(
+        _Total <= 0,
+        0.0,
+        DIVIDE(_Good, _Total, 0.0)
+    )
+
+[OEE Pct] = 
+[Availability Pct] * [Performance Pct] * [Quality Pct]
+
+[Energy Intensity kWh Per Good Unit] = 
+DIVIDE([Total Energy kWh], [Total Good Units], 0.0)
+
+// --------------------------------------------------------------------------
+// 4. DIAGNOSTIC & ADVANCED ANALYTICAL MEASURES
+// --------------------------------------------------------------------------
+
+[Scrap Rate Pct] = 
+DIVIDE([Total Rejected Units], [Total Produced Units], 0.0)
+
+[Yield Pct] = 
+DIVIDE([Total Good Units], [Total Produced Units], 0.0)
+
+[Defect Rate Pct] = 
+DIVIDE([Total Defects Count], [Total Produced Units], 0.0)
+
+[OEE 7-Day Rolling Pct] = 
+VAR _CurrentDate = MAX('DimDate'[Date])
+VAR _RollingPeriod = 
+    DATESINPERIOD(
+        'DimDate'[Date],
+        _CurrentDate,
+        -7,
+        DAY
+    )
+RETURN
+    CALCULATE(
+        [OEE Pct],
+        _RollingPeriod
+    )
+
+[Downtime Pareto Pct of Total] = 
+VAR _TotalDowntimeAllReasons = 
+    CALCULATE(
+        [Total Downtime Minutes],
+        ALLSELECTED('DimReason')
+    )
+RETURN
+    DIVIDE([Total Downtime Minutes], _TotalDowntimeAllReasons, 0.0)
+
+[Downtime Pareto Cumulative Pct] = 
+VAR _CurrentMinutes = [Total Downtime Minutes]
+VAR _TotalAll = CALCULATE([Total Downtime Minutes], ALLSELECTED('DimReason'))
+VAR _AllReasons = ALLSELECTED('DimReason')
+VAR _CumulativeMinutes = 
+    SUMX(
+        FILTER(
+            _AllReasons,
+            [Total Downtime Minutes] >= _CurrentMinutes
+        ),
+        [Total Downtime Minutes]
+    )
+RETURN
+    DIVIDE(_CumulativeMinutes, _TotalAll, 0.0)

@@ -1,0 +1,9 @@
+ReasonKey,ReasonCode,ReasonCategory,ReasonDescription
+1,Planned_Maintenance,Downtime,Planned_Maintenance reason
+2,Mechanical_Failure,Downtime,Mechanical_Failure reason
+3,Electrical_Failure,Downtime,Electrical_Failure reason
+4,Changeover,Downtime,Changeover reason
+5,Setup,Downtime,Setup reason
+6,Scrap,Defect,Scrap reason
+7,Rework,Defect,Rework reason
+8,Minor_Defect,Defect,Minor_Defect reason

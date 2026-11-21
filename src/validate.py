@@ -557,7 +557,13 @@ def run_validation(
         detected_by_rule = exc_df["RuleViolated"].value_counts().to_dict()
 
     # Generate Markdown Validation Report
-    report_path = base / "docs" / "validation_report.md"
+    try:
+        curated_dir.resolve().relative_to(base.resolve())
+        report_path = base / "docs" / "validation_report.md"
+    except ValueError:
+        report_path = curated_dir.parent / "docs" / "validation_report.md"
+        if not report_path.parent.exists() and curated_dir.parent.parent.exists():
+            report_path = curated_dir.parent.parent / "docs" / "validation_report.md"
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
     all_known_rules = [
