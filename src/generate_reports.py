@@ -7,9 +7,15 @@ the analytical CSV reports plus reconciliation_report.csv.
 
 import argparse
 import pathlib
+import sys
 import sqlite3
 import pandas as pd
 from typing import Dict, Any
+
+# Ensure repository root is on sys.path to support both 'python src/generate_reports.py' and 'python -m src.generate_reports'
+_REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
 from src.config import BASE_DIR
 
